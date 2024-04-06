@@ -9,8 +9,8 @@ const Videopage = () => {
   console.log(import.meta.env.VITE_APP_ID)
   let myMeeting = async (element) => {
     // generate Kit Token
-    const appID = APP_ID ;
-    const serverSecret = SERVER_SECRET;
+    const appID = 557461107 ;
+    const serverSecret = "fb3103fc5df2d250920d299f0c6d62f6";
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
       serverSecret,
