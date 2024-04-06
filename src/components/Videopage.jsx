@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
-import { APP_ID, SERVER_SECRET } from "./secrets";
 
 const Videopage = () => {
   const { id } = useParams();
